@@ -194,7 +194,7 @@ Draw.loadPlugin(function (ui) {
     };
     C4Container.prototype.handler = c4StateHandler;
     C4Container.prototype.create = function () {
-        var c4Container = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438dd5;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#3c7fc0;');
+        var c4Container = new mxCell('', new mxGeometry(0, 70, 160, 110), 'rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffeedd;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#3c7fc0;');
         c4Container.setVertex(true);
         c4Container.setValue(mxUtils.createXmlDocument().createElement('object'));
         c4Container.setAttribute('label', '<span><b>name</b></span><div>[Container:&nbsp;<span>technology</span><span>]</span></div><div><br></div><div>Description</div>');
